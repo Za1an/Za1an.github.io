@@ -1,25 +1,28 @@
 .row{   
     display: flex;
     justify-content: center;
-    background-color: #004d40;
+    background-color: #b71c1c;
     color:white;
     font-size:20px;
 }
 
+
 .headshot{
     width: 10%;
+    border-radius: 50%;
 }
 
 .mid{
-    background-color: #01579b;
+    background-color: #1a237e;
     color:white;
     align-items:center;
     font-size:50px;
-    margin-top:5px;
+    justify-content: space-around;
 }
 
 .aboutme{
-    background-color: #01579b;
+    background-color: #1a237e;
+    padding: 30px;
 }
 
 .refinfo {
@@ -31,6 +34,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
 }
 
 #html5 {
@@ -46,6 +50,41 @@
 }
 
 .footer {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+#libraries {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#jquery {
+    height: 100px;
+}
+
+#spacer {
+    width: 15vw;
+}
+
+#aframe {
+    height: 100px;
+}
+
+.contact {
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+body {
+    margin: 0px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
