@@ -1,0 +1,51 @@
+.row{   
+    display: flex;
+    justify-content: center;
+    background-color: #004d40;
+    color:white;
+    font-size:20px;
+}
+
+.headshot{
+    width: 10%;
+}
+
+.mid{
+    background-color: #01579b;
+    color:white;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+}
+
+.aboutme{
+    background-color: #01579b;
+}
+
+.refinfo {
+    color: white;
+    text-decoration: none;
+}
+
+#codinglanguages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#html5 {
+    width: 10%;
+}
+
+#css3 {
+    width: 10%;
+}
+
+#js {
+    width: 10%;
+}
+
+.footer {
+    justify-content: space-between;
+    align-items: center;
+}
